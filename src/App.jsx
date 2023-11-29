@@ -9,7 +9,8 @@ import StudentCards from "./components/StudentCards";
 import TPOCards from "./components/TPOCards";
 import CorporateReq from "./components/CorporateReq";
 import Form from "./components/Form";
-import Form2 from "./components/Form2";
+import SignUp from "./components/SignUp";
+import Info from "./components/Info";
 
 function App() {
   return (
@@ -24,7 +25,8 @@ function App() {
         <Route path="tpoCards" element={<TPOCards />} />
         <Route path="corpoReq" element={<CorporateReq />} />
         <Route path="form" element={<Form />} />
-        <Route path="form2" element={<Form2 />} />
+        <Route path="signup" element={<SignUp />} />
+        <Route path="info" element={<Info />} />
       </Routes>
     </>
   );
