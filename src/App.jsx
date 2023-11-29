@@ -11,6 +11,7 @@ import CorporateReq from "./components/CorporateReq";
 import Form from "./components/Form";
 import SignUp from "./components/SignUp";
 import Info from "./components/Info";
+import Education from "./components/Education";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Route path="form" element={<Form />} />
         <Route path="signup" element={<SignUp />} />
         <Route path="info" element={<Info />} />
+        <Route path="education" element={<Education />} />
       </Routes>
     </>
   );
