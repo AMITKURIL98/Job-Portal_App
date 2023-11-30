@@ -13,6 +13,7 @@ import SignUp from "./components/SignUp";
 import Info from "./components/Info";
 import Education from "./components/Education";
 import ResumeUpload from "./components/ResumeUpload";
+import Assesment from "./components/Assesment";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
         <Route path="info" element={<Info />} />
         <Route path="education" element={<Education />} />
         <Route path="resume" element={<ResumeUpload />} />
+        <Route path="assignment" element={<Assesment />} />
       </Routes>
     </>
   );
