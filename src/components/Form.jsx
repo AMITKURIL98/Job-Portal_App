@@ -47,9 +47,10 @@ function Form() {
               type="text"
               id="name"
               name="name"
-              onChange={formik.handleChange}
-              onBlur={formik.handleBlur}
-              value={formik.values.name}
+              // onChange={formik.handleChange}
+              // onBlur={formik.handleBlur}
+              // value={formik.values.name}  boiler plate code for these three fields. these behind the seans will add the props for you
+              {...formik.getFieldProps("name")}// we pass the name of the form field as is name='name' for this.
             />
             {formik.touched.name && formik.errors.name ? (
               <div className="text-red-800">{formik.errors.name}</div>
@@ -64,9 +65,10 @@ function Form() {
               type="email"
               id="email"
               name="email"
-              onChange={formik.handleChange}
-              onBlur={formik.handleBlur}
-              value={formik.values.email}
+              // onChange={formik.handleChange}
+              // onBlur={formik.handleBlur}
+              // value={formik.values.email}
+              {...formik.getFieldProps("email")}
             />
             {formik.touched.email && formik.errors.email ? (
               <div className="text-red-800">{formik.errors.email}</div>
@@ -81,9 +83,10 @@ function Form() {
               type="text"
               id="channel"
               name="channel"
-              onChange={formik.handleChange}
-              onBlur={formik.handleBlur}
-              value={formik.values.channel}
+              // onChange={formik.handleChange}
+              // onBlur={formik.handleBlur}
+              // value={formik.values.channel}
+              {...formik.getFieldProps("channel")}
             />
             {formik.touched.channel && formik.errors.channel ? (
               <div className="text-red-800">{formik.errors.channel}</div>
