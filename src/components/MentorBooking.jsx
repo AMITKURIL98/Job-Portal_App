@@ -56,17 +56,22 @@ function MentorBooking() {
           Available
         </div>
       </div>
-      <div className="text-black text-5xl font-[Inter] font-normal break-words ml-14 mt-10">
+      <div className="text-black text-5xl font-[Inter] font-normal break-words ml-14 mt-24 mb-8">
         Mentor Name
       </div>
-      <div className="text-black text-5xl font-[Inter] font-normal break-words ml-14 mt-32 mb-8">
+      <div className="text-black text-4xl font-[Inter] font-normal break-words ml-14 mb-8">
         Mr. XYZ Education Details
       </div>
-      <div className="text-black text-5xl font-[Inter] font-normal break-words ml-14 mt-32 mb-8">
+      <div className="text-black text-5xl font-[Inter] font-normal break-words ml-14 mt-24 mb-8">
         Cost
       </div>
-      <div className="text-black text-5xl font-[Inter] font-thin break-words ml-14 mt-32 mb-8">
+      <div className="text-black text-4xl font-[Inter] font-normal break-words ml-14 mb-8">
         2500/- Per Session (1 Hr)
+      </div>
+      <div className="flex justify-end mr-28 py-32">
+        <div className="text-white text-4xl font-[Inter] font-normal px-24 py-5 bg-[#3626A7] rounded-[30px]">
+          Next
+        </div>
       </div>
     </>
   );

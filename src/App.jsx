@@ -16,6 +16,7 @@ import ResumeUpload from "./components/ResumeUpload";
 import Assesment from "./components/Assesment";
 import MentorBooking from "./components/MentorBooking"
 import CarrerPlanning from "./components/CarrerPlanning";
+import LiveProject from "./components/LiveProject";
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
         <Route path="assignment" element={<Assesment />} />
         <Route path="mentor" element={<MentorBooking />} />
         <Route path="Carrerplanning" element={<CarrerPlanning />} />
+        <Route path="liveproject" element={<LiveProject />} />
       </Routes>
     </>
   );
